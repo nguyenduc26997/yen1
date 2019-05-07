@@ -1,0 +1,274 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;	
+ }
+ a{
+    color: #b63b4d;
+ }
+ a:hover{
+   text-decoration: none;
+   color: red;
+ }
+ ul {
+    list-style-type: none;
+ }
+ .navbar-2{
+     margin:0px;
+ }
+ .search-1{
+     margin-top: 30px;
+ }
+ .giohangvadangnhap{
+     margin-top: 30px;
+     text-align: center;
+ }
+ hr{
+     margin: 0px;
+ }
+ .img-tintuc{
+     margin-top: 20px;
+     width: 90px;
+ }
+ .img-3{
+    width: 90px;
+    margin:20px;
+ }
+ .card {
+   max-width: 300px;
+   margin: auto;
+   text-align: center;
+   font-family: arial;
+   position: relative;
+ }
+ 
+ .price {
+   color: grey;
+   font-size: 22px;
+ }
+ .price-2{
+    color: grey;
+    font-size: 16px;
+ }
+ .card button {
+   border: none;
+   outline: 0;
+   padding: 12px;
+   color: white;
+   background-color: pink;
+   text-align: center;
+   cursor: pointer;
+   width: 50%;
+   font-size: 18px;
+ }
+ 
+ .card button:hover {
+   background-color: red;
+ }
+ .card:hover{
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);}
+ .logo{
+     text-align: center;
+ }
+ .bg-1{
+     background-image: linear-gradient(45deg,rgba(25,25,56,0.8)55%,rgba(244,0,0,0.75)), url("../image/1.jpg");
+     padding: 40px;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+ 
+ }
+.accordion {
+    height: 60px;
+    max-width: 360px;
+    margin: 0px auto 0px;
+    background: black;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.accordion .link {
+   cursor: pointer;
+   display: block;
+   padding: 20px 15px 15px 15px;
+   color: #4D4D4D;
+   font-size: 18px;
+   font-weight: 700;
+   position: relative;
+   -webkit-transition: all 0.4s ease;
+   -o-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+.accordion li:last-child .link {
+   border-bottom: 0;
+}
+.accordion li.open .link {
+   color: whitesmoke;
+}
+
+.accordion li.open i {
+   color: white;
+}
+.accordion li.default .submenu {display: block;}
+.submenu {
+    display: block;
+    background: #444359;
+    font-size: 14px;
+    position: absolute;
+    width: 90%;
+}
+
+.submenu li {
+    border-bottom: 5px solid whitesmoke;
+}
+.submenu a {
+    display: block;
+    text-decoration: none;
+    color: #d9d9d9;
+    padding: 20px;
+    padding-left: 42px;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.submenu a:hover {
+    background: #b63b4d;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{  
+    margin:0px 0px 0px 0px;
+    padding: 40px 0px 20px 0px;
+    background-color: #FFF;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+.ribbon-sale{
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 230px;
+    width: 70px;
+    height: 30px;
+}
+.sale{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.mini-tintuc{
+
+}
+.coupon {
+    border: 5px solid #bbb; 
+    width: 80%; 
+    border-radius: 15px; 
+    margin: 0 auto; 
+    width: 350px; 
+}
+  
+.mini-tintuc {
+    padding: 2px 16px;
+    background-color: #f1f1f1;
+}
+#myBtn {
+    display: none;
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: red; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #555; 
+  }
